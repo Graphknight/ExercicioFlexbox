@@ -41,9 +41,15 @@ header > nav{
 header > nav > a {
     background-color: black;
     color: white;
+    text-align: center;
     text-decoration: none;
     padding: 10px;
     margin: 5px;
+}
+
+header > nav > a:hover {
+    background-color: white;
+    color: black;
 }
 
 main {
